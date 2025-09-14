@@ -3,11 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.css" />
     <title>Namaste React</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="header">This is Header</div>
+    <div id="root">This is Root</div>
+    <div id="footer">This is Footer</div>
+    <!--
+    Order of the import script is very important, App.js should be imported after React is imported.
+    -->
     <script
       crossorigin
       src="https://unpkg.com/react@18/umd/react.development.js"
@@ -16,6 +21,6 @@
       crossorigin
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
     ></script>
-    <script src="./App.js"/>
+    <script src="./App.js" />
   </body>
 </html>
